@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Remove projects -->
+  <remove-project name="android_bionic" />
+  <remove-project name="android_frameworks_base" />
+  <remove-project name="android_hardware_ril" />
+  <remove-project name="android_packages_apps_Nfc" />
+  <remove-project name="android_packages_apps_Settings" />
+  <remove-project name="android_vendor_codeaurora_telephony" />
+  <remove-project name="android_vendor_qcom_opensource_cryptfs_hw" />
+  <remove-project name="android_vendor_qcom_opensource_dpm" />
+  <remove-project name="android_vendor_qcom_opensource_time-services" />
+
+  <!-- DU-X projects -->
+  <!-- Devices -->
+  <project name="DU-X/android_device_oneplus_dumpling" path="device/oneplus/dumpling" remote="github" revision="p9x-caf" />
+  <project name="DU-X/android_device_oneplus_extras" path="device/oneplus/extras" remote="github" revision="p9x-caf" />
+  <project name="DU-X/android_device_oneplus_msm8998-common" path="device/oneplus/msm8998-common" remote="github" revision="p9x-caf" />
+
+  <!-- External -->
+  <project name="DU-X/android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="github" revision="p9x-caf" />
+  <project name="DU-X/android_external_ant-wireless_ant_service" path="external/ant-wireless/ant_service" remote="github" revision="p9x-caf" />
+  <project name="DU-X/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="p9x-caf" />
+  <project name="DU-X/android_external_libnfc-nxp" path="external/libnfc-nxp" remote="github" revision="p9x-caf" />
+
+  <!-- Frameworks -->
+  <project name="DU-X/android_frameworks_base" path="frameworks/base" remote="github" revision="p9x" />
+
+  <!-- General -->
+  <project name="DU-X/android_bionic" path="bionic" remote="github" revision="p9x" />
+
+  <!-- Hardware -->
+  <project name="DU-X/android_hardware_broadcom_nfc" path="hardware/broadcom/nfc" remote="github" revision="p9x-caf" />
+  <project name="DU-X/android_hardware_ril" path="hardware/ril" remote="github" revision="p9x-caf" />
+
+  <!-- Packages -->
+  <project name="DU-X/android_packages_apps_Nfc" path="packages/apps/Nfc" remote="github" revision="p9x" />
+  <project name="DU-X/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="p9x" />
+
+  <!-- Vendor -->
+  <project name="DU-X/android_vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="github" revision="p9x-caf" />
+  <project name="DU-X/android_vendor_nxp_opensource_external_libnfc-nci" path="vendor/nxp/opensource/commonsys/external/libnfc-nci" remote="github" revision="p9x-caf" />
+  <project name="DU-X/android_vendor_nxp_opensource_frameworks" path="vendor/nxp/opensource/commonsys/frameworks" remote="github" revision="p9x-caf" />
+  <project name="DU-X/android_vendor_nxp_opensource_packages_apps_Nfc" path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" remote="github" revision="p9x-caf" />
+  <project name="DU-X/android_vendor_nxp_opensource_halimpl" path="vendor/nxp/opensource/halimpl" remote="github" revision="p9x-caf" />
+  <project name="DU-X/android_vendor_nxp_opensource_hidlimpl" path="vendor/nxp/opensource/hidlimpl" remote="github" revision="p9x-caf" />
+  <project name="DU-X/android_vendor_nxp_opensource_interfaces_nfc" path="vendor/nxp/opensource/interfaces/nfc" remote="github" revision="p9x-caf" />
+  <project name="DU-X/android_vendor_oneplus" path="vendor/oneplus" remote="github" revision="p9x-caf" />
+
+  <!-- DU projects -->
+  <!-- Devices -->
+  <project name="DirtyUnicorns/android_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" remote="github" revision="p9x-caf" />
+
+</manifest>
