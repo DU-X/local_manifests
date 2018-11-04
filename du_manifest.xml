@@ -6,6 +6,7 @@
   <remove-project name="android_external_protobuf" />
   <remove-project name="android_frameworks_base" />
   <remove-project name="android_hardware_ril" />
+  <remove-project name="platform/external/libtextclassifier" />
   <remove-project name="android_packages_apps_Nfc" />
   <remove-project name="android_packages_apps_Settings" />
   <remove-project name="android_vendor_codeaurora_telephony" />
@@ -27,6 +28,7 @@
   <project name="DU-X/android_external_ant-wireless_ant_service" path="external/ant-wireless/ant_service" remote="github" revision="p9x-caf" />
   <project name="DU-X/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="p9x-caf" />
   <project name="DU-X/android_external_libnfc-nxp" path="external/libnfc-nxp" remote="github" revision="p9x-caf" />
+  <project name="DU-X/android_external_libtextclassifier" path="external/libtextclassifier" remote="github" revision="p9x" />
 
   <!-- Frameworks -->
   <project name="DU-X/android_frameworks_base" path="frameworks/base" remote="github" revision="p9x" />
