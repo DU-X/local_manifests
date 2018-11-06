@@ -7,6 +7,7 @@
   <remove-project name="android_frameworks_base" />
   <remove-project name="android_hardware_ril" />
   <remove-project name="platform/external/libtextclassifier" />
+  <remove-project name="android_packages_apps_DU-Tweaks" />
   <remove-project name="android_packages_apps_Nfc" />
   <remove-project name="android_packages_apps_Settings" />
   <remove-project name="android_vendor_codeaurora_telephony" />
@@ -41,6 +42,7 @@
   <project name="DU-X/android_hardware_ril" path="hardware/ril" remote="github" revision="p9x-caf" />
 
   <!-- Packages -->
+  <project name="DU-X/android_packages_apps_DU-Tweaks" path="packages/apps/DU-Tweaks" remote="github" revision="p9x" />
   <project name="DU-X/android_packages_apps_Nfc" path="packages/apps/Nfc" remote="github" revision="p9x" />
   <project name="DU-X/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="p9x" />
 
