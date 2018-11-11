@@ -3,6 +3,7 @@
 
   <!-- Remove projects -->
   <remove-project name="android_bionic" />
+  <remove-project name="android_build" />
   <remove-project name="android_external_protobuf" />
   <remove-project name="android_frameworks_base" />
   <remove-project name="android_hardware_ril" />
@@ -35,6 +36,15 @@
   <project name="DU-X/android_frameworks_base" path="frameworks/base" remote="github" revision="p9x" />
 
   <!-- General -->
+  <project path="build/make" name="DU-X/android_build" remote="github" revision="p9x" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
   <project name="DU-X/android_bionic" path="bionic" remote="github" revision="p9x" />
 
   <!-- Hardware -->
