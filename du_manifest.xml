@@ -6,6 +6,7 @@
   <remove-project name="android_build" />
   <remove-project name="android_external_protobuf" />
   <remove-project name="android_frameworks_base" />
+  <remove-project name="android_frameworks_native" />
   <remove-project name="android_hardware_ril" />
   <remove-project name="platform/external/libtextclassifier" />
   <remove-project name="android_packages_apps_DU-Tweaks" />
@@ -34,6 +35,7 @@
 
   <!-- Frameworks -->
   <project name="DU-X/android_frameworks_base" path="frameworks/base" remote="github" revision="p9x" />
+  <project name="DU-X/android_frameworks_native" path="frameworks/native" remote="github" revision="p9x" />
 
   <!-- General -->
   <project path="build/make" name="DU-X/android_build" remote="github" revision="p9x" >
