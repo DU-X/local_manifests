@@ -27,6 +27,7 @@
   <project name="DU-X/android_device_oneplus_dumpling" path="device/oneplus/dumpling" remote="github" revision="p9x-caf" />
   <project name="DU-X/android_device_oneplus_extras" path="device/oneplus/extras" remote="github" revision="p9x-caf" />
   <project name="DU-X/android_device_oneplus_msm8998-common" path="device/oneplus/msm8998-common" remote="github" revision="p9x-caf" />
+  <project name="DU-X/android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" revision="p9x-caf" />
 
   <!-- External -->
   <project name="DU-X/android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="github" revision="p9x-caf" />
