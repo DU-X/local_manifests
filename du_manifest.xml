@@ -9,15 +9,21 @@
   <remove-project name="android_frameworks_native" />
   <remove-project name="android_frameworks_opt_telephony" />
   <remove-project name="android_hardware_ril" />
-  <remove-project name="platform/external/libtextclassifier" />
   <remove-project name="android_packages_apps_DU-Tweaks" />
   <remove-project name="android_packages_apps_Nfc" />
   <remove-project name="android_packages_apps_Settings" />
+  <remove-project name="android_packages_services_Telecomm" />
+  <remove-project name="android_packages_services_Telephony" />
   <remove-project name="android_vendor_codeaurora_telephony" />
   <remove-project name="android_vendor_du" />
   <remove-project name="android_vendor_qcom_opensource_cryptfs_hw" />
+  <remove-project name="android_vendor_qcom_opensource_dataservices" />
   <remove-project name="android_vendor_qcom_opensource_dpm" />
+  <remove-project name="android_vendor_qcom_opensource_interfaces" />
   <remove-project name="android_vendor_qcom_opensource_time-services" />
+  <remove-project name="platform/external/libtextclassifier" />
+  <remove-project name="platform/frameworks/opt/net/ims" />
+  <remove-project name="platform/packages/apps/PhoneCommon" />
 
   <!-- AOSP projects -->
   <project name="platform/external/protobuf" path="external/protobuf" groups="pdk" />
@@ -39,6 +45,7 @@
   <!-- Frameworks -->
   <project name="DU-X/android_frameworks_base" path="frameworks/base" remote="github" revision="p9x" />
   <project name="DU-X/android_frameworks_native" path="frameworks/native" remote="github" revision="p9x" />
+  <project name="DU-X/android_frameworks_opt_net_ims" path="frameworks/opt/net/ims" remote="github" revision="p9x-caf" />
   <project name="DU-X/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="p9x-caf" />
 
   <!-- General -->
@@ -60,7 +67,10 @@
   <!-- Packages -->
   <project name="DU-X/android_packages_apps_DU-Tweaks" path="packages/apps/DU-Tweaks" remote="github" revision="p9x" />
   <project name="DU-X/android_packages_apps_Nfc" path="packages/apps/Nfc" remote="github" revision="p9x" />
+  <project name="DU-X/android_packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="github" revision="p9x-caf" />
   <project name="DU-X/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="p9x" />
+  <project name="DU-X/android_packages_services_Telecomm" path="packages/services/Telecomm" remote="github" revision="p9x-caf" />
+  <project name="DU-X/android_packages_services_Telephony" path="packages/services/Telephony" remote="github" revision="p9x-caf" />
 
   <!-- Vendor -->
   <project name="DU-X/android_vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="github" revision="p9x-caf" />
@@ -72,6 +82,8 @@
   <project name="DU-X/android_vendor_nxp_opensource_hidlimpl" path="vendor/nxp/opensource/hidlimpl" remote="github" revision="p9x-caf" />
   <project name="DU-X/android_vendor_nxp_opensource_interfaces_nfc" path="vendor/nxp/opensource/interfaces/nfc" remote="github" revision="p9x-caf" />
   <project name="DU-X/android_vendor_oneplus" path="vendor/oneplus" remote="github" revision="p9x-caf" />
+  <project name="DU-X/android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="github" revision="p9x-caf" />
+  <project name="DU-X/android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="github" revision="p9x-caf" />
 
   <!-- DU projects -->
   <!-- Devices -->
