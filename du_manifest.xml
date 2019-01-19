@@ -8,6 +8,7 @@
   <remove-project name="android_frameworks_base" />
   <remove-project name="android_frameworks_native" />
   <remove-project name="android_frameworks_opt_telephony" />
+  <remove-project name="android_hardware_nxp_nfc" />
   <remove-project name="android_hardware_ril" />
   <remove-project name="android_packages_apps_DU-Tweaks" />
   <remove-project name="android_packages_apps_Nfc" />
@@ -23,6 +24,7 @@
   <remove-project name="android_vendor_qcom_opensource_time-services" />
   <remove-project name="platform/external/libtextclassifier" />
   <remove-project name="platform/frameworks/opt/net/ims" />
+  <remove-project name="platform/hardware/nxp/secure_element" />
   <remove-project name="platform/packages/apps/CarrierConfig" />
   <remove-project name="platform/packages/apps/PhoneCommon" />
 
@@ -63,6 +65,8 @@
 
   <!-- Hardware -->
   <project name="DU-X/android_hardware_broadcom_nfc" path="hardware/broadcom/nfc" remote="github" revision="p9x-caf" />
+  <project name="DU-X/android_hardware_nxp_nfc" path="hardware/nxp/nfc" remote="github" revision="p9x-caf" />
+  <project name="DU-X/android_hardware_nxp_secure_element" path="hardware/nxp/secure_element" remote="github" revision="p9x-caf" />
   <project name="DU-X/android_hardware_ril" path="hardware/ril" remote="github" revision="p9x-caf" />
 
   <!-- Packages -->
